@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Table View Controller-->
+        <!--My like places-->
         <scene sceneID="CNT-Dt-GHa">
             <objects>
                 <tableViewController id="RWB-ND-qva" customClass="MainTableViewController" customModule="BarApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="RWB-ND-qva" id="yTH-Rj-qXY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="pRc-wr-8LO"/>
+                    <navigationItem key="navigationItem" title="My like places" id="pRc-wr-8LO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YF0-We-Zg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,6 +44,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PsY-ZF-Q9k">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="29"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
